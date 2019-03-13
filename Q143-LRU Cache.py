@@ -29,9 +29,9 @@ Examples:
 '''
 思路：
 	1.get函数：(1)若key不在dict中，return -1
-			  (2)若key在dict中，获取且return v
+	  	  (2)若key在dict中，获取且return v
 	2.put函数：(1)若key在dict中，则更新这个位置的value
-			  (2)若key不在dict中，且cache已满时，用LRU规则踢出去一个，再加入新value
+		  (2)若key不在dict中，且cache已满时，用LRU规则踢出去一个，再加入新value
 '''
 
 class LRUCache:
