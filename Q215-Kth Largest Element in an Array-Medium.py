@@ -25,7 +25,6 @@ class Solution:
         :rtype: int
         """
         #Another way
-        #Solution
         if not nums or k is None:
             return -1
         heap = []
