@@ -24,17 +24,6 @@ class Solution:
         :type k: int
         :rtype: int
         """
-        #Another way
-        if not nums or k is None:
-            return -1
-        heap = []
-        for ch in nums:
-            heapq.heappush(heap, ch)
-        while len(heap) > k:
-            heapq.heappop(heap)
-        return heapq.heappop(heap)
-        
-        
         #Solution 2
         heap = []
         for i in range(len(nums)):
