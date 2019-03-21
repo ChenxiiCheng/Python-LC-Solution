@@ -1,6 +1,6 @@
 # Python Solutions for Leetcode
 
-[Python3](https://github.com/ChenxiiCheng/Python-LC-Solution) solutions list, continuing update. &hearts; means you need a subscription.
+[Python3](https://github.com/ChenxiiCheng/Python-LC-Solution) solution list, continuing update. &hearts; means you need a subscription.
 
 | #    | Title                                                        | Difficulty | Basic  idea               | Solution                                                     |
 | ---- | ------------------------------------------------------------ | :--------: | ------------------------- | ------------------------------------------------------------ |
