@@ -46,5 +46,5 @@ class Solution:
                 root.right.next = None
             self.connect(root.left)
             self.connect(root.right)
-
+        return root 
             
